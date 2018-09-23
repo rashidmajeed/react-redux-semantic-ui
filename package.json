@@ -2,9 +2,11 @@
   "name": "productcaltalog",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://rashidmajeed.github.io/react-redux-semantic-ui/",
   "dependencies": {
     "cuid": "^2.1.1",
     "date-fns": "^1.29.0",
+    "gh-pages": "^2.0.0",
     "history": "^4.7.2",
     "moment": "^2.22.0",
     "react": "^16.3.0",
@@ -30,6 +32,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "devDependencies": {

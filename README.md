@@ -16,3 +16,6 @@
 > run npm start and :) :)
 > Serve on localhost:3000
 
+## check on gh-pages
+https://rashidmajeed.github.io/react-redux-semantic-ui/
+
